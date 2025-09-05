@@ -124,7 +124,7 @@ export type Database = {
           produtor_id: string
           recomendacoes: string | null
           status: string | null
-          tecnico_id: string
+          tecnico_id: string | null
           tipo_atendimento: string | null
           updated_at: string | null
         }
@@ -141,7 +141,7 @@ export type Database = {
           produtor_id: string
           recomendacoes?: string | null
           status?: string | null
-          tecnico_id: string
+          tecnico_id?: string | null
           tipo_atendimento?: string | null
           updated_at?: string | null
         }
@@ -158,7 +158,7 @@ export type Database = {
           produtor_id?: string
           recomendacoes?: string | null
           status?: string | null
-          tecnico_id?: string
+          tecnico_id?: string | null
           tipo_atendimento?: string | null
           updated_at?: string | null
         }
